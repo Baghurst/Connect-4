@@ -20,7 +20,7 @@ print(r6)
 print(r7)
 
 #SEVENTH ROW
-
+#while player_RED and player_BLUE ==
 player_RED = int(input("Player Red, enter your first disk: "))
 if player_RED == 1 :
     r7[1] = "R"
