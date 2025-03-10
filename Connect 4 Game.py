@@ -23,14 +23,17 @@ print(r7)
 #while player_RED and player_BLUE ==
 player_RED = int(input("Player Red, enter your first disk: "))
 if player_RED == 1 :
+    if player_BLUE ==1 :
+        r6[1] = "R"
+        print(r1)
+        print(r2)
+        print(r3)
+        print(r4)
+        print(r5)
+        print(r6)
+        print(r7)
     r7[1] = "R"
-    print(r1)
-    print(r2)
-    print(r3)
-    print(r4)
-    print(r5)
-    print(r6)
-    print(r7)
+
 elif player_RED == 2 :
     r7[3] = "R"
     print(r1)
@@ -89,13 +92,15 @@ elif player_RED == 7 :
 player_BLUE = int(input("Player Blue, enter your first disk: "))
 if player_BLUE == 1 :
     r7[1] = "B"
-    print(r1)
-    print(r2)
-    print(r3)
-    print(r4)
-    print(r5)
-    print(r6)
-    print(r7)
+    if player_RED ==1 :
+        r6[1] = "B"
+        print(r1)
+        print(r2)
+        print(r3)
+        print(r4)
+        print(r5)
+        print(r6)
+        print(r7)
 elif player_BLUE == 2 :
     r7[3] = "B"
     print(r1)
